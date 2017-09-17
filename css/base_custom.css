@@ -1,6 +1,7 @@
 
    /* Base Styles */
    /* Typography*/
+   p {color:#54575b; font-family: "Poppins", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;}
    h1, h2, h3,{
    margin-top: 0;
    margin-bottom: 2rem;
