@@ -1,22 +1,7 @@
 /*
 * soak.com info customer base code v1.0
 */
-/* Table of contents
-––––––––––––––––––––––––––––––––––––––––––––––––––
-- Grid
-- Base Styles
-- Typography
-- Links
-- Buttons
-- Forms
-- Lists
-- Code
-- Tables
-- Spacing
-- Utilities
-- Clearing
-- Media Queries
-*/
+
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /*  SECTIONS  */
@@ -108,6 +93,7 @@ margin: 1% 0 1% 0%;
 .span_1_of_4, .span_2_of_4, .span_3_of_4, .span_4_of_4 { width: 100%; }
 .span_1_of_5, .span_2_of_5, .span_3_of_5, .span_4_of_5, .span_5_of_5 { width: 100%; }
 .span_1_of_6, .span_2_of_6, .span_3_of_6, .span_4_of_6, .span_5_of_6, .span_6_of_6 { width: 100%; }
+.mobileOff {display:none;}    
 }
 /* Base Styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -139,23 +125,16 @@ h3 { font-size: 3.6rem; font-family: "Poppins", "HelveticaNeue", "Helvetica Neue
 }
 p {
 margin-top: 0; }
-/* Links
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-a {
-color: #000; }
-a:hover {
-color: #000; }
+
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.button,
-button,
-input[type="submit"],
-input[type="reset"],
+.buttonTB,
+buttonTB,
 input[type="button"] {
 display: inline-block;
 height: 38px;
 padding: 0 30px;
-color: #555;
+color: #fff;
 text-align: center;
 font-size: 11px;
 font-weight: 600;
@@ -169,84 +148,31 @@ background-color: transparent;
 border: 1px solid #fff;
 cursor: pointer;
 box-sizing: border-box; }
-.button:hover,
-button:hover,
-input[type="submit"]:hover,
-input[type="reset"]:hover,
+.buttonTB:hover,
+buttonTB:hover,
 input[type="button"]:hover,
-.button:focus,
-button:focus,
-input[type="submit"]:focus,
+.buttonTB:focus,
+buttonTB:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
 color: #54575b;
 border-color: #00bfb2;
 outline: 0; }
-.button.button-primary,
-button.button-primary,
-input[type="submit"].button-primary,
-input[type="reset"].button-primary,
-input[type="button"].button-primary {
+.buttonTB.buttonTB-primary,
+buttonTB.buttonTB-primary,
+input[type="reset"].buttonTB-primary,
+input[type="button"].buttonTB-primary {
 color: #FFF;
 background-color: #00bfb2;
 border-color: #007573; }
-.button.button-primary:hover,
-button.button-primary:hover,
-input[type="submit"].button-primary:hover,
-input[type="reset"].button-primary:hover,
-input[type="button"].button-primary:hover,
-.button.button-primary:focus,
-button.button-primary:focus,
-input[type="submit"].button-primary:focus,
-input[type="reset"].button-primary:focus,
-input[type="button"].button-primary:focus {
+.buttonTB.buttonTB-primary:hover,
+buttonTB.buttonTB-primary:hover,
+input[type="reset"].buttonTB-primary:hover,
+input[type="button"].buttonTB-primary:hover,
+.buttonTB.buttonTB-primary:focus,
+buttonTB.buttonTB-primary:focus,
+input[type="reset"].buttonTB-primary:focus,
+input[type="button"].buttonTB-primary:focus {
 color: #FFF;
 background-color: #00bfb2;
 border-color: #007573; }
-/* Lists
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-ul {
-list-style: circle inside; }
-ol {
-list-style: decimal inside; }
-ol, ul {
-padding-left: 0;
-margin-top: 0; }
-ul ul,
-ul ol,
-ol ol,
-ol ul {
-margin: 1.5rem 0 1.5rem 3rem;
-font-size: 90%; }
-li {
-margin-bottom: 1rem; }
-/* Misc
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-hr {
-margin-top: 3rem;
-margin-bottom: 3.5rem;
-border-width: 0;
-border-top: 1px solid #E1E1E1; }
-/* Clearing
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-/* Media Queries
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-/*
-Note: The best way to structure the use of media queries is to create the queries
-near the relevant code. For example, if you wanted to change the styles for buttons
-on small devices, paste the mobile query code up in the buttons section and style it
-there.
-*/
-/* Larger than mobile */
-@media (min-width: 400px) {
-*[class="mobileOff"] { width: 0px !important; display: none !important; }     
-}
-/* Larger than phablet (also point when grid becomes active) */
-@media (min-width: 550px) {}
-/* Larger than tablet */
-@media (min-width: 750px) {}
-/* Larger than desktop */
-@media (min-width: 1000px) {}
-/* Larger than Desktop HD */
-@media (min-width: 1200px) {}
