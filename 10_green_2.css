@@ -57,23 +57,23 @@
    text-align: center;
    position: absolute;
    top: 40%;
-   left: 80%;
+   left: 84%;
    transform: translate(-50%, -50%);
    color: white;
    font-family: "Poppins", Helvetica, sans-serif;
+      width:180px;
    }
    .hero-textTab button {
    border: none;
    outline: 0;
    display: inline-block;
-   padding: 10px 12px;
    color: #54575b;
    background-color: #ffffff;
-   text-align: left;
    cursor: pointer;
    font-family: "Poppins", Helvetica, sans-serif;
    border-radius: 6px;
    font-size:14px;
+   width:180px;
    }  
        
         }
