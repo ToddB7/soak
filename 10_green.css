@@ -1,0 +1,115 @@
+
+    
+   .hero-image {
+   background-image: url("http://staging-web-soak.demandware.net/on/demandware.static/-/Library-Sites-soak-content-global/default/dw4b653a81/images/Banners/10off_homepagebanner_dsk_IE.jpg");
+   height: 540px;
+   background-size:contain;
+   background-repeat: no-repeat;
+   position: relative;
+   margin:10px;
+   }
+   .hero-text {
+   text-align: center;
+   position: absolute;
+   top: 50%;
+   left: 80%;
+   transform: translate(-50%, -50%);
+   color: white;
+   font-family: "Poppins", Helvetica, sans-serif;
+   }
+   .hero-text button {
+   border: none;
+   outline: 0;
+   display: inline-block;
+   padding: 10px 12px;
+   color: #54575b;
+   background-color: #ffffff;
+   text-align: left;
+   cursor: pointer;
+   font-family: "Poppins", Helvetica, sans-serif;
+   border-radius: 6px;
+   font-size:14px;
+   }
+    .hero-text button:hover {
+  background-color: #ffffff;
+  color: #54575b;
+}
+     @media(min-width:991px){
+        .hero-textTab{display:none;}
+        .hero-textMob{display:none;}
+         
+    }
+   @media only screen and (max-width: 990px) and (min-width: 561px){
+        .hero-image{display:none;}
+        .hero-text{display:none;}
+        .hero-imageMob{display:none;}
+        .hero-textMob{display:none;}
+        
+    .hero-imageTab {
+   background-image: url("http://staging-web-soak.demandware.net/on/demandware.static/-/Library-Sites-soak-content-global/default/dw4b653a81/images/Banners/10off_homepagebanner_dsk_IE.jpg");
+   height: 453px;
+   background-size:contain;
+   background-repeat: no-repeat;
+   position: relative;
+   margin:10px;       
+    }
+      .hero-textTab {
+   text-align: center;
+   position: absolute;
+   top: 40%;
+   left: 80%;
+   transform: translate(-50%, -50%);
+   color: white;
+   font-family: "Poppins", Helvetica, sans-serif;
+   }
+   .hero-textTab button {
+   border: none;
+   outline: 0;
+   display: inline-block;
+   padding: 10px 12px;
+   color: #54575b;
+   background-color: #ffffff;
+   text-align: left;
+   cursor: pointer;
+   font-family: "Poppins", Helvetica, sans-serif;
+   border-radius: 6px;
+   font-size:14px;
+   }  
+       
+        }
+    @media only screen and (max-width: 560px){
+        .hero-textTab{display:none;}
+         .hero-image{display:none;}
+    .hero-imageMob {
+   background-image: url("http://staging-web-soak.demandware.net/on/demandware.static/-/Library-Sites-soak-content-global/default/dw4b653a81/images/Banners/10off_homepagebanner_mob_IE.jpg");
+   height: 439px;
+   background-size:contain;
+   background-repeat: no-repeat;
+   position: relative;
+   margin:10px;       
+    }
+        .hero-textMob {
+   text-align: center;
+   position: absolute;
+   top: 80%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color: white;
+   font-family: "Poppins", Helvetica, sans-serif;
+   }
+   .hero-textMob button {
+ border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 10px 10px 10px;
+    color: #54575b;
+    background-color: #ffffff;
+    /* text-align: left; */
+    cursor: pointer;
+    font-family: "Poppins", Helvetica, sans-serif;
+    border-radius: 6px;
+    font-size: 13px;
+    width: 235px;
+   }  
+      
+        }
