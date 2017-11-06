@@ -12,7 +12,7 @@
    text-align: center;
    position: absolute;
    top: 50%;
-   left: 80%;
+   left: 83%;
    transform: translate(-50%, -50%);
    color: white;
    font-family: "Poppins", Helvetica, sans-serif;
@@ -29,6 +29,7 @@
    font-family: "Poppins", Helvetica, sans-serif;
    border-radius: 6px;
    font-size:14px;
+       width:180px;
    }
     .hero-text button:hover {
   background-color: #ffffff;
