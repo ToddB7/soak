@@ -1,0 +1,391 @@
+
+html {
+box-sizing: border-box;
+}
+*, *:before, *:after {
+ox-sizing: inherit;
+}
+body{ 
+width: 100%;
+font-family: 'Poppins', helvetica, 'helvetica-neue', sans-serif;
+}
+.blkNovCont{
+width: 100%;
+max-width: 956px;
+height: 307px;
+padding-top: 2em;
+background: url(http://info.soak.com/custloads/765718348/md_280094.jpeg) no-repeat 0 0;
+background-size: 100% auto;
+vertical-align: top;
+}
+/* .blkNovCont *{
+border: 1px dotted pink;
+}*/
+.topCopyCont{
+font-family: Poppins, helvetica, 'helvetica-neue', sans-serif;
+width: 92%;
+margin: auto;
+}
+.h2lft{
+text-align: right;
+/*width: 415px;*/
+}
+.h2rgt{
+text-align: left;
+/*width: 440px;*/
+}
+.h3lft{
+text-align: right;
+/*width: 422px;*/
+}
+.h3rgt{
+text-align: left;
+/*§*/
+}
+/*.h3rgt:after {
+  content: "";
+  display: table;
+  clear: both;
+}*/
+
+.topCopyCont h2{
+/*width: 459px;*/
+/*width: 956px;*/
+font-size: 69px;
+font-size: 7.5vw;
+color: #d20145;
+text-shadow: 4px 4px 0.075em rgba(0,0,0,0.6);
+text-transform: uppercase;
+display: inline-block;
+/*text-align: left;*/
+}
+.topCopyCont h3{
+/*width: 467px;*/
+/*width: 956px;*/
+height: auto;
+font-size: 54px;
+font-size: 5.9vw;
+max-height: 100%;
+color: #fff;
+text-transform: uppercase;
+display: inline-block;
+/*text-align: left;*/
+text-shadow: 4px 4px 0.075em rgba(0,0,0,0.6);
+}
+.topCopyCont h2, .topCopyCont h3{
+margin: auto;
+vertical-align: top;
+} 
+.btmClockCont{
+width: 100%;
+padding: 0;
+color: #fff;
+box-sizing: border-box;
+vertical-align: top;
+font-family: Poppins, helvetica, 'helvetica-neue', sans-serif;
+font-weight: bold
+}
+.clkTimr{
+    width: 46%;
+    margin-top: 0.6em;
+    padding-left: 2em;
+    display: inline-block;
+vertical-align: top;
+} 
+.btnCode{
+width: 50%;
+display: inline-block;
+} 
+.btnCode a{
+width: 100%;
+height: 2.5em;
+padding-left: 1em;
+line-height: 2.5em;
+display: block;
+background: #fff;
+border-radius: .3em 0 0 .3em;
+text-decoration: none;
+color: #000;
+box-sizing: border-box;
+text-transform: uppercase;
+position: relative;
+font-size: 1.7vw;
+background: rgb(249,249,249); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(249,249,249,1) 1%, rgba(255,255,255,1) 41%, rgba(229,229,229,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(249,249,249,1) 1%,rgba(255,255,255,1) 41%,rgba(229,229,229,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(249,249,249,1) 1%,rgba(255,255,255,1) 41%,rgba(229,229,229,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+} 
+.btnShop{
+width: 50%;
+display: inline-block;
+} 
+.btnShop a{
+width: 100%;
+height: 2.5em;
+padding-left: 1em;
+line-height: 2.5em;
+display: block;
+background: #d90045;
+border-radius: 0 .3em .3em 0;
+text-decoration: none;
+color: #000;
+/* transition: all ease-in-out .3s;*/
+box-sizing: border-box;
+text-transform: uppercase;
+position: relative;
+font-size: 1.7vw;
+background: rgb(255,0,80); /* Old browsers */
+background: -moz-linear-gradient(top, rgba(255,0,80,1) 0%, rgba(217,0,69,1) 44%, rgba(173,0,54,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(255,0,80,1) 0%,rgba(217,0,69,1) 44%,rgba(173,0,54,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(255,0,80,1) 0%,rgba(217,0,69,1) 44%,rgba(173,0,54,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0050', endColorstr='#ad0036',GradientType=0 ); /* IE6-9 */
+} 
+.btnShop a:hover{
+color: #333;
+box-sizing: border-box;
+background: #d90045;
+}
+.btnCode a:hover{
+color: #333;
+box-sizing: border-box;
+background: #fff;
+}
+.btnsCont {
+width: 42.5%;
+margin-top: 2em;
+display: inline-block;
+}
+.timer {
+font-family: 'Poppins', helvetica, 'helvetica-neue', sans-serif;
+font-size: 32px;
+font-weight: bold;
+display: inline-block;
+vertical-align: top;
+letter-spacing: 2px;
+}
+.clock {
+width: 65%;
+display: inline-block;
+}
+.clock .column {
+display: inline-block;
+width: 15%;
+}
+.text {
+font-size: 9px;
+font-weight: 100;
+text-transform: uppercase;
+}
+
+.endsIn{
+margin: 0 1.5em 0 38px;
+display: inline-block;
+text-transform: uppercase;
+font-weight: 200;
+position: relative;
+top: 0;
+}
+.btnShop a span{
+position: absolute;
+right: 1em;
+}
+#days{
+font-family: 'Poppins', helvetica, 'helvetica-neue', sans-serif;
+
+}
+.selectdLs{
+text-align: right;
+font-size: 10px;
+font-weight: 100;
+text-transform: uppercase;
+opacity: 0.7;
+color: #fff;
+margin-top: 0.2%;
+padding-right: 7.4em;
+} 
+
+.topAlign{
+margin: auto;
+}
+
+
+
+@media only screen and (max-width: 767px) {
+.blkNovCont {
+width: 100%;
+max-height: auto;
+height: auto;
+padding-top: 2em;
+background: url(http://info.soak.com/custloads/765718348/md_280094.jpeg) no-repeat 0 0;
+background-size: cover;
+vertical-align: top;
+}
+.clkTimr, .btnCode, .btnsCont, .btnShop {
+width: 100%;
+}
+.btnShop a, .btnCode a, .btnShop, .btnCode {
+border-radius: 0;
+height: 5em;
+line-height: 5em;
+width: 97%;
+margin: auto;
+}
+.btnCode, .btnShop{
+display: block;
+} 
+.btnCode a{
+background: #b3b3b3;
+} 
+.btnShop a{
+margin-top:1em;
+} 
+.topCopyCont h2 {
+width: 768px;
+font-size: 112px;
+margin: auto;
+text-align: left;
+}
+.topCopyCont h3 {
+width: 768px;
+font-size: 84px;
+margin: auto;
+text-align: left;
+}
+.clock .column {
+width: 20%;
+} 
+.timer {
+font-size: 68px;
+}
+}
+
+@media only screen and (max-width: 575px) {
+.btnCode a{background: #b3b3b3;}
+.topCopyCont h2 {
+width: 575px;
+font-size: 78px;
+font-size: 15vw;
+}
+
+.topCopyCont h3 {
+width: 575px;
+font-size: 60px;
+font-size: 12vw;
+margin: auto;
+}
+}
+
+
+
+
+/*-- Responsive-Code --*/
+
+@media screen and (max-width: 1920px) {
+.clock {
+margin-top: 50px;
+}
+}
+
+
+
+@media screen and (max-width: 1366px) {
+.clock {
+margin-top: 44px;
+}
+
+}
+
+@media screen and (max-width: 1024px) {
+.timer {
+font-size: 48x;
+}
+}
+
+
+@media screen and (max-width: 767px) {
+.clock {
+display: block;
+width:90%;
+margin: 20px auto 20px;
+}
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 568px) {
+.timer {
+font-size: 65px;
+letter-spacing: 0;
+}
+.clock {
+display: block;
+width:97%;
+margin: 20px auto 20px;
+}
+.endsIn{
+width: 90%;
+display: block;
+margin: auto;
+position: relative;
+top: 0
+}
+
+
+}
+
+@media screen and (max-width: 414px) {
+.text {
+font-size: 16px;
+}
+}
+
+@media screen and (max-width: 384px) {
+.timer {
+font-size: 55px;
+}
+}
+
+@media screen and (max-width: 375px) {
+.timer {
+font-size: 40px;
+}
+}
+
+@media screen and (max-width: 360px) {
+.clock {
+margin-left: -20px;
+}
+.clock .column {
+width: 20%;
+}
+}
+
+@media screen and (max-width: 320px) {
+.clock {
+margin-left: -10px;
+}
+.text {
+font-size: 13px;
+}
+}
+@media (max-width:1920px) and (min-width:767px) {
+.clock {
+display: inline-block;
+width:77%;
+margin: 20px auto 20px;
+}
+.endsIn {
+display: inline-block;
+width:20%;
+margin: 20px auto 20px;
+vertical-align: text-bottom;
+}
+}
+
+
+/*-- //Responsive-Code --*/
