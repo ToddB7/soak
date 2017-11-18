@@ -1,0 +1,199 @@
+<style>
+   h1{
+   display: block;
+   font-size: 1.7em;
+   font-weight: 600;
+   line-height:36px;
+   font-family:'Poppins', helvetica, arial, sans-serif;
+   }
+   p{
+   font-family:'Poppins', helvetica, arial, sans-serif;
+   }
+   /* The hero image */
+   .tophero {
+   /* The image used */
+   background-image: url("http://soak.com/images/bathempire/products/1700mmx845mm-Skyla-Freestanding-Bath---Large-measurement-pdf-BR275-39.jpg");
+   /* Set a specific height */
+   height: 370px;
+   /* Position and center the image to scale nicely on all screens */
+   background-position: 50% 78%;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+   }
+   .righthero {
+   /* The image used */
+   background-image: url("http://soak.com/images/bathempire/products/Denver-Wall-Hung-Vanity-Unit---Rose-Gold-Edition-close-up-view-MVR2601-37.jpg");
+   /* Set a specific height */
+   height: 370px;
+   /* Position and center the image to scale nicely on all screens */
+   background-position: 50% 78%;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+   }
+   .lefthero {
+   /* The image used */
+   background-image: url("http://soak.com/images/bathempire/products/600x1380mm-Gloss-White-Double-Flat-Panel-Horizontal-Premium-Radiator-measurement-pdf-RC224-39.jpg");
+   /* Set a specific height */
+   height: 370px;
+   /* Position and center the image to scale nicely on all screens */
+   background-position: 50% 65%;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+   opacity: 1.0;
+   }
+   /* Place text in the middle of the image */
+   .hero-text {
+   text-align: center;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color: white;
+   }
+   .hero-text button {
+   border: none;
+   border-radius: 6px;
+   outline: 0;
+   display: inline-block;
+   padding: 10px 20px 10px 10px;
+   color: white;
+   background-color: #00bfb2;
+   text-align: left;
+   cursor: pointer;
+   font-size: 14px;
+   font-family: 'Poppins', helvetica, arial, sans-serif;
+   }
+   .hero-text button:hover {
+   background-color: #037773;
+   color: white;
+   }
+   /* Place text in the middle of the image */
+   .hero-textL {
+   text-align: left;
+   position: absolute;
+   top: 50%;
+   left: 30%;
+   transform: translate(-50%, -50%);
+   color: white;
+   width: 300px;
+   padding: 10px;
+   font-family: 'Poppins', helvetica, arial, sans-serif;
+   }
+   .hero-textL button {
+   border: none;
+   border-radius: 6px;
+   outline: 0;
+   display: inline-block;
+   padding: 10px 20px 10px 10px;
+   color: white;
+   background-color: #00bfb2;
+   text-align: left;
+   cursor: pointer;
+   font-size: 14px;
+   font-family: 'Poppins', helvetica, arial, sans-serif;
+   }
+   .hero-textL button:hover {
+   background-color: #037773;
+   color: white;
+   }
+   /* Place text in the middle of the image */
+   .hero-textR {
+   text-align: center;
+   position: absolute;
+   top: 50%;
+   left: 30%;
+   transform: translate(-50%, -50%);
+   color: white;
+   }
+   .hero-textR button {
+   border: none;
+   border-radius: 6px;
+   outline: 0;
+   display: inline-block;
+   padding: 10px 20px 10px 10px;
+   color: white;
+   background-color: #00bfb2;
+   text-align: left;
+   cursor: pointer;
+   font-size: 14px;
+   font-family: 'Poppins', helvetica, arial, sans-serif;
+   }
+   .hero-textR button:hover {
+   background-color: #037773;
+   color: white;
+   }
+    .lefthero:before, .righthero:before, .tophero:before{
+background-color: rgba(84, 87, 91, 0.2);
+content: '';
+display: block;
+height: 100%;
+position: absolute;
+width: 100%;
+}
+    
+   /*  SECTIONS  */
+   .section {
+   clear: both;
+   padding: 0px;
+   margin: 0px;
+   }
+   /*  COLUMN SETUP  */
+   .col {
+   display: block;
+   float:left;
+   margin: 1% 0 1% 1.6%;
+   }
+   .col:first-child { margin-left: 0; }
+   /*  GROUPING  */
+   .group:before,
+   .group:after { content:""; display:table; }
+   .group:after { clear:both;}
+   .group { zoom:1; /* For IE 6/7 */ }
+   /*  GRID OF TWO  */
+   .span_2_of_2 {
+   width: 100%;
+   }
+   .span_1_of_2 {
+   width: 49.2%;
+   }
+   /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+   @media only screen and (max-width: 480px) {
+   .col { 
+   margin: 1% 0 1% 0%;
+   }
+   }
+   @media only screen and (max-width: 480px) {
+   .span_2_of_2, .span_1_of_2 { display:none; }
+   }
+</style>
+<div class="tophero">
+   <div class="hero-text">
+      <h1>Bathroom Vanity Units</h1>
+      <p>And I'm a Photographer</p>
+      <button>Read More&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></button>
+   </div>
+</div>
+<div class="section group">
+   <div class="col span_1_of_2 lefthero ">
+      <div class="hero-textL">
+         <h1>Horizontal<br>Radiators</h1>
+         <button>Shop Radiators&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></button>
+      </div>
+   </div>
+   <div class="col span_1_of_2 righthero">
+      <div class="hero-textL">
+         <h1>Bathroom Vanity Units</h1>
+         <button>Shop Furniture&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></button>
+      </div>
+   </div>
+</div>
+<div class="tophero">
+   <div class="hero-text">
+      <h1>Bathroom Vanity Units</h1>
+      <p>And I'm a Photographer</p>
+      <button>Read More&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;></button>
+   </div>
+</div>
