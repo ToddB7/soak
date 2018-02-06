@@ -1,0 +1,888 @@
+@media (min-width: 0px) {
+  /* line 2, /Users/mike.distras/Desktop/hotel-collection/scss/_main.scss */
+  * {
+    box-sizing: border-box;
+  }
+  /* line 6, /Users/mike.distras/Desktop/hotel-collection/scss/_main.scss */
+  .wrapper.hotel-collection {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    color: #ffffff;
+  }
+  /* line 12, /Users/mike.distras/Desktop/hotel-collection/scss/_main.scss */
+  .wrapper.hotel-collection .intro-header {
+    background: #000000;
+  }
+  /* line 14, /Users/mike.distras/Desktop/hotel-collection/scss/_main.scss */
+  .wrapper.hotel-collection .intro-header:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  /* line 19, /Users/mike.distras/Desktop/hotel-collection/scss/_main.scss */
+  .wrapper.hotel-collection .intro-header .wrapper {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  /* line 24, /Users/mike.distras/Desktop/hotel-collection/scss/_main.scss */
+  .wrapper.hotel-collection .intro-header .wrapper span.logo {
+    display: block;
+    float: left;
+  }
+  /* line 28, /Users/mike.distras/Desktop/hotel-collection/scss/_main.scss */
+  .wrapper.hotel-collection .intro-header .wrapper span.title {
+    display: inline-block;
+    font-size: 22px;
+    text-transform: uppercase;
+    padding-top: 30px;
+  }
+  /* line 33, /Users/mike.distras/Desktop/hotel-collection/scss/_main.scss */
+  .wrapper.hotel-collection .intro-header .wrapper span.title .bold {
+    display: inline;
+    font-weight: bold;
+  }
+  /* line 38, /Users/mike.distras/Desktop/hotel-collection/scss/_main.scss */
+  .wrapper.hotel-collection .intro-header .wrapper span.intro-blurb {
+    display: inline-block;
+    padding: 10px 0 0 75px;
+    line-height: 120%;
+  }
+  /* line 47, /Users/mike.distras/Desktop/hotel-collection/scss/_main.scss */
+  .wrapper.hotel-collection .collection-choice-row {
+    margin: 5px 0;
+  }
+  /* line 49, /Users/mike.distras/Desktop/hotel-collection/scss/_main.scss */
+  .wrapper.hotel-collection .collection-choice-row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  /* line 54, /Users/mike.distras/Desktop/hotel-collection/scss/_main.scss */
+  .wrapper.hotel-collection .collection-choice-row .collection-link {
+    background: #000000;
+    color: #ffffff;
+    border-right: 10px solid #ffffff;
+    padding: 5px;
+  }
+  /* line 59, /Users/mike.distras/Desktop/hotel-collection/scss/_main.scss */
+  .wrapper.hotel-collection .collection-choice-row .collection-link img {
+    margin-right: 10px;
+    width: 100%;
+  }
+  /* line 63, /Users/mike.distras/Desktop/hotel-collection/scss/_main.scss */
+  .wrapper.hotel-collection .collection-choice-row .collection-link:last-child {
+    border-right: 0;
+  }
+  /* line 67, /Users/mike.distras/Desktop/hotel-collection/scss/_main.scss */
+  .wrapper.hotel-collection .collection-choice-row .collection-link span.view-text {
+    font-size: 19px;
+    line-height: 120%;
+    display: block;
+    max-width: 48%;
+  }
+  /* line 72, /Users/mike.distras/Desktop/hotel-collection/scss/_main.scss */
+  .wrapper.hotel-collection .collection-choice-row .collection-link span.view-text .center {
+    text-align: center;
+    display: block;
+    margin-top: 15px;
+  }
+  /* line 77, /Users/mike.distras/Desktop/hotel-collection/scss/_main.scss */
+  .wrapper.hotel-collection .collection-choice-row .collection-link span.view-text a {
+    color: #ffffff;
+  }
+  /* line 81, /Users/mike.distras/Desktop/hotel-collection/scss/_main.scss */
+  .wrapper.hotel-collection .collection-choice-row .collection-link span.image {
+    width: 48%;
+  }
+  /* line 83, /Users/mike.distras/Desktop/hotel-collection/scss/_main.scss */
+  .wrapper.hotel-collection .collection-choice-row .collection-link span.image img {
+    max-width: 100%;
+  }
+  /* line 91, /Users/mike.distras/Desktop/hotel-collection/scss/_main.scss */
+  .wrapper.hotel-collection .collection-poi-wrapper {
+    margin-bottom: 10px;
+    background: #000000;
+    padding: 20px 20px 75px 20px;
+    position: relative;
+  }
+  /* line 97, /Users/mike.distras/Desktop/hotel-collection/scss/_main.scss */
+  .wrapper.hotel-collection .collection-poi-wrapper span.collection-title {
+    font-size: 23px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ffffff;
+    display: block;
+    margin: 5px 0;
+  }
+  /* line 105, /Users/mike.distras/Desktop/hotel-collection/scss/_main.scss */
+  .wrapper.hotel-collection .collection-poi-wrapper span.collection-description {
+    font-size: 19px;
+    color: #ffffff;
+  }
+  /* line 109, /Users/mike.distras/Desktop/hotel-collection/scss/_main.scss */
+  .wrapper.hotel-collection .collection-poi-wrapper span.shop-all-items {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 18px;
+  }
+  /* line 114, /Users/mike.distras/Desktop/hotel-collection/scss/_main.scss */
+  .wrapper.hotel-collection .collection-poi-wrapper span.shop-all-items:after {
+    content: '>';
+    font-size: 22px;
+    padding-left: 20px;
+  }
+  /* line 120, /Users/mike.distras/Desktop/hotel-collection/scss/_main.scss */
+  .wrapper.hotel-collection .collection-poi-wrapper span.image {
+    display: block;
+    text-align: center;
+  }
+  /* line 126, /Users/mike.distras/Desktop/hotel-collection/scss/_main.scss */
+  .wrapper.hotel-collection .collection-poi-wrapper a.shop-all-items {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 18px;
+    display: inline-block;
+  }
+  /* line 132, /Users/mike.distras/Desktop/hotel-collection/scss/_main.scss */
+  .wrapper.hotel-collection .collection-poi-wrapper a.shop-all-items:after {
+    content: '>';
+    font-size: 22px;
+    padding-left: 20px;
+  }
+  /* line 143, /Users/mike.distras/Desktop/hotel-collection/scss/_main.scss */
+  .wrapper.hotel-collection .collection-poi-wrapper.one .cd-single-point:nth-of-type(1) {
+    top: 65%;
+    left: 15%;
+  }
+  /* line 148, /Users/mike.distras/Desktop/hotel-collection/scss/_main.scss */
+  .wrapper.hotel-collection .collection-poi-wrapper.one .cd-single-point:nth-of-type(2) {
+    bottom: 48%;
+    right: 52%;
+  }
+  /* line 153, /Users/mike.distras/Desktop/hotel-collection/scss/_main.scss */
+  .wrapper.hotel-collection .collection-poi-wrapper.one .cd-single-point:nth-of-type(3) {
+    top: 37%;
+    right: 16%;
+  }
+  /* line 158, /Users/mike.distras/Desktop/hotel-collection/scss/_main.scss */
+  .wrapper.hotel-collection .collection-poi-wrapper.one .cd-single-point:nth-of-type(4) {
+    top: 53%;
+    left: 13%;
+  }
+  /* line 163, /Users/mike.distras/Desktop/hotel-collection/scss/_main.scss */
+  .wrapper.hotel-collection .collection-poi-wrapper.one .cd-single-point:nth-of-type(5) {
+    top: 37%;
+    left: 21%;
+  }
+  /* line 168, /Users/mike.distras/Desktop/hotel-collection/scss/_main.scss */
+  .wrapper.hotel-collection .collection-poi-wrapper.one .cd-single-point:nth-of-type(6) {
+    top: 35%;
+    left: 33%;
+  }
+  /* line 173, /Users/mike.distras/Desktop/hotel-collection/scss/_main.scss */
+  .wrapper.hotel-collection .collection-poi-wrapper.one .cd-single-point:nth-of-type(7) {
+    top: 58%;
+    left: 24%;
+  }
+  /* line 182, /Users/mike.distras/Desktop/hotel-collection/scss/_main.scss */
+  .wrapper.hotel-collection .collection-poi-wrapper.two .cd-single-point:nth-of-type(1) {
+    top: 49%;
+    left: 10%;
+  }
+  /* line 187, /Users/mike.distras/Desktop/hotel-collection/scss/_main.scss */
+  .wrapper.hotel-collection .collection-poi-wrapper.two .cd-single-point:nth-of-type(2) {
+    bottom: 28%;
+    right: 26%;
+  }
+  /* line 192, /Users/mike.distras/Desktop/hotel-collection/scss/_main.scss */
+  .wrapper.hotel-collection .collection-poi-wrapper.two .cd-single-point:nth-of-type(3) {
+    top: 13%;
+    left: 30%;
+  }
+  /* line 197, /Users/mike.distras/Desktop/hotel-collection/scss/_main.scss */
+  .wrapper.hotel-collection .collection-poi-wrapper.two .cd-single-point:nth-of-type(4) {
+    top: 45%;
+    right: 21%;
+  }
+  /* line 201, /Users/mike.distras/Desktop/hotel-collection/scss/_main.scss */
+  .wrapper.hotel-collection .collection-poi-wrapper.two .cd-single-point:nth-of-type(5) {
+    top: 55%;
+    right: 9%;
+  }
+  /* line 210, /Users/mike.distras/Desktop/hotel-collection/scss/_main.scss */
+  .wrapper.hotel-collection .collection-poi-wrapper.three .cd-single-point:nth-of-type(1) {
+    bottom: 40%;
+    right: 28%;
+  }
+  /* line 215, /Users/mike.distras/Desktop/hotel-collection/scss/_main.scss */
+  .wrapper.hotel-collection .collection-poi-wrapper.three .cd-single-point:nth-of-type(2) {
+    top: 34%;
+    left: 19%;
+  }
+  /* line 220, /Users/mike.distras/Desktop/hotel-collection/scss/_main.scss */
+  .wrapper.hotel-collection .collection-poi-wrapper.three .cd-single-point:nth-of-type(3) {
+    top: 55%;
+    left: 29%;
+  }
+  /* line 225, /Users/mike.distras/Desktop/hotel-collection/scss/_main.scss */
+  .wrapper.hotel-collection .collection-poi-wrapper.three .cd-single-point:nth-of-type(4) {
+    top: 40%;
+    right: 46%;
+  }
+  /* line 229, /Users/mike.distras/Desktop/hotel-collection/scss/_main.scss */
+  .wrapper.hotel-collection .collection-poi-wrapper.three .cd-single-point:nth-of-type(5) {
+    top: 65%;
+    right: 48%;
+  }
+  /* line 240, /Users/mike.distras/Desktop/hotel-collection/scss/_main.scss */
+  .columns.one-of-four {
+    display: inline-block;
+    width: 25%;
+  }
+  /* line 244, /Users/mike.distras/Desktop/hotel-collection/scss/_main.scss */
+  .columns.three-of-four {
+    display: inline-block;
+    width: 75%;
+  }
+  /* line 248, /Users/mike.distras/Desktop/hotel-collection/scss/_main.scss */
+  .columns.one-of-two {
+    display: inline-block;
+    width: 50%;
+  }
+  /* line 252, /Users/mike.distras/Desktop/hotel-collection/scss/_main.scss */
+  .columns.one-of-three {
+    display: inline-block;
+    width: 33.3333333%;
+  }
+  /* line 256, /Users/mike.distras/Desktop/hotel-collection/scss/_main.scss */
+  .columns:first-child {
+    float: left;
+  }
+  /* line 259, /Users/mike.distras/Desktop/hotel-collection/scss/_main.scss */
+  .columns:last-child {
+    float: right;
+  }
+  /* line 261, /Users/mike.distras/Desktop/hotel-collection/scss/_main.scss */
+  .columns:last-child:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  /* line 269, /Users/mike.distras/Desktop/hotel-collection/scss/_main.scss */
+  .button {
+    padding: 8px 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  /* line 273, /Users/mike.distras/Desktop/hotel-collection/scss/_main.scss */
+  .button.white {
+    background: #ffffff;
+    color: #000000;
+    border: 1px solid #ffffff;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+  }
+  /* line 278, /Users/mike.distras/Desktop/hotel-collection/scss/_main.scss */
+  .button.white:hover {
+    border: 1px solid #ffffff;
+    background: #000000;
+    color: #ffffff;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    cursor: pointer;
+  }
+  /* line 286, /Users/mike.distras/Desktop/hotel-collection/scss/_main.scss */
+  .button.black {
+    background: #000000;
+    color: #ffffff;
+    border: 1px solid #000000;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+  }
+  /* line 291, /Users/mike.distras/Desktop/hotel-collection/scss/_main.scss */
+  .button.black:hover {
+    border: 1px solid #000000;
+    background: #ffffff;
+    color: #000000;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    cursor: pointer;
+  }
+  /* line 299, /Users/mike.distras/Desktop/hotel-collection/scss/_main.scss */
+  .button.store-item-button {
+    position: absolute;
+    right: 20px;
+    left: 20px;
+    bottom: 20px;
+    text-align: center;
+  }
+  /* line 305, /Users/mike.distras/Desktop/hotel-collection/scss/_main.scss */
+  .button.store-item-button:after {
+    content: '>';
+    padding-left: 20px;
+  }
+  /* line 312, /Users/mike.distras/Desktop/hotel-collection/scss/_main.scss */
+  .float-left {
+    float: left;
+  }
+  /* line 315, /Users/mike.distras/Desktop/hotel-collection/scss/_main.scss */
+  .float-right {
+    float: right;
+  }
+  /* line 318, /Users/mike.distras/Desktop/hotel-collection/scss/_main.scss */
+  .clear {
+    clear: both;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 325, /Users/mike.distras/Desktop/hotel-collection/scss/_main.scss */
+  .columns.one-of-four {
+    display: inline-block;
+    width: 25%;
+  }
+  /* line 329, /Users/mike.distras/Desktop/hotel-collection/scss/_main.scss */
+  .columns.three-of-four {
+    display: inline-block;
+    width: 75%;
+  }
+  /* line 333, /Users/mike.distras/Desktop/hotel-collection/scss/_main.scss */
+  .columns.one-of-two {
+    display: inline-block;
+    width: 50%;
+  }
+  /* line 340, /Users/mike.distras/Desktop/hotel-collection/scss/_main.scss */
+  .columns.one-of-three:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  /* line 346, /Users/mike.distras/Desktop/hotel-collection/scss/_main.scss */
+  .columns:first-child {
+    float: left;
+  }
+  /* line 349, /Users/mike.distras/Desktop/hotel-collection/scss/_main.scss */
+  .columns:last-child {
+    float: right;
+  }
+  /* line 351, /Users/mike.distras/Desktop/hotel-collection/scss/_main.scss */
+  .columns:last-child:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  /* line 359, /Users/mike.distras/Desktop/hotel-collection/scss/_main.scss */
+  .wrapper.hotel-collection .collection-choice-row .collection-link span.image {
+    width: 100%;
+  }
+  /* line 363, /Users/mike.distras/Desktop/hotel-collection/scss/_main.scss */
+  .wrapper.hotel-collection .collection-choice-row .collection-link span.view-text {
+    width: 100%;
+    max-width: 100%;
+  }
+  /* line 368, /Users/mike.distras/Desktop/hotel-collection/scss/_main.scss */
+  .wrapper.hotel-collection .intro-header {
+    padding-bottom: 20px;
+  }
+}
+
+/* -------------------------------- 
+
+Primary style
+
+-------------------------------- */
+/* line 17, /Users/mike.distras/Desktop/hotel-collection/scss/style.scss */
+html * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* line 22, /Users/mike.distras/Desktop/hotel-collection/scss/style.scss */
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 26, /Users/mike.distras/Desktop/hotel-collection/scss/style.scss */
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 100%;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+/* line 33, /Users/mike.distras/Desktop/hotel-collection/scss/style.scss */
+a {
+  color: #000000;
+  text-decoration: none;
+}
+
+/* line 38, /Users/mike.distras/Desktop/hotel-collection/scss/style.scss */
+img {
+  max-width: 100%;
+}
+
+/* -------------------------------- 
+
+Modules - reusable parts of our design
+
+-------------------------------- */
+/* line 48, /Users/mike.distras/Desktop/hotel-collection/scss/style.scss */
+.cd-container {
+  /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+/* line 20, /Applications/Scout-App.app/Contents/Resources/app.nw/bower_components/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
+.cd-container::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+/* line 55, /Users/mike.distras/Desktop/hotel-collection/scss/style.scss */
+.cd-img-replace {
+  /* replace text with background images */
+  display: inline-block;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+}
+
+/* -------------------------------- 
+
+Main components 
+
+-------------------------------- */
+/* line 69, /Users/mike.distras/Desktop/hotel-collection/scss/style.scss */
+.cd-product {
+  text-align: center;
+}
+
+/* line 73, /Users/mike.distras/Desktop/hotel-collection/scss/style.scss */
+.cd-product-wrapper {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* line 80, /Users/mike.distras/Desktop/hotel-collection/scss/style.scss */
+.cd-product-wrapper > img {
+  display: block;
+}
+
+/* line 85, /Users/mike.distras/Desktop/hotel-collection/scss/style.scss */
+.cd-single-point {
+  position: absolute;
+  border-radius: 50%;
+}
+
+/* line 89, /Users/mike.distras/Desktop/hotel-collection/scss/style.scss */
+.cd-single-point > a {
+  position: relative;
+  z-index: 2;
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-radius: inherit;
+  background: #24BBB1;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3), inset 0 1px 0 rgba(255, 255, 255, 0.3);
+  -moz-transition: background-color 0.2s;
+  -o-transition: background-color 0.2s;
+  -webkit-transition: background-color 0.2s;
+  transition: background-color 0.2s;
+}
+
+/* line 100, /Users/mike.distras/Desktop/hotel-collection/scss/style.scss */
+.cd-single-point > a::after, .cd-single-point > a:before {
+  /* rotating plus icon */
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  bottom: auto;
+  right: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  background-color: #ffffff;
+  -webkit-transition-property: -webkit-transform;
+  -moz-transition-property: -moz-transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+
+/* line 110, /Users/mike.distras/Desktop/hotel-collection/scss/style.scss */
+.cd-single-point > a::after {
+  height: 2px;
+  width: 12px;
+}
+
+/* line 115, /Users/mike.distras/Desktop/hotel-collection/scss/style.scss */
+.cd-single-point > a::before {
+  height: 12px;
+  width: 2px;
+}
+
+/* line 121, /Users/mike.distras/Desktop/hotel-collection/scss/style.scss */
+.cd-single-point::after {
+  /* this is used to create the pulse animation */
+  content: '';
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: inherit;
+  background-color: transparent;
+  -webkit-animation: cd-pulse 2s infinite;
+  -moz-animation: cd-pulse 2s infinite;
+  animation: cd-pulse 2s infinite;
+}
+
+/* line 138, /Users/mike.distras/Desktop/hotel-collection/scss/style.scss */
+.cd-single-point.is-open > a {
+  background-color: #037773;
+}
+
+/* line 141, /Users/mike.distras/Desktop/hotel-collection/scss/style.scss */
+.cd-single-point.is-open > a::after, .cd-single-point.is-open > a::before {
+  -webkit-transform: translateX(-50%) translateY(-50%) rotate(135deg);
+  -moz-transform: translateX(-50%) translateY(-50%) rotate(135deg);
+  -ms-transform: translateX(-50%) translateY(-50%) rotate(135deg);
+  -o-transform: translateX(-50%) translateY(-50%) rotate(135deg);
+  transform: translateX(-50%) translateY(-50%) rotate(135deg);
+}
+
+/* line 146, /Users/mike.distras/Desktop/hotel-collection/scss/style.scss */
+.cd-single-point.is-open::after {
+  /* remove pulse effect */
+  display: none;
+}
+
+/* line 151, /Users/mike.distras/Desktop/hotel-collection/scss/style.scss */
+.cd-single-point.is-open .cd-more-info {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+  -moz-transition: opacity 0.3s 0s, visibility 0s 0s, transform 0.3s 0s, top 0.3s 0s, bottom 0.3s 0s, left 0.3s 0s, right 0.3s 0s;
+  -o-transition: opacity 0.3s 0s, visibility 0s 0s, transform 0.3s 0s, top 0.3s 0s, bottom 0.3s 0s, left 0.3s 0s, right 0.3s 0s;
+  -webkit-transition: opacity 0.3s 0s, visibility 0s 0s, transform 0.3s 0s, top 0.3s 0s, bottom 0.3s 0s, left 0.3s 0s, right 0.3s 0s;
+  transition: opacity 0.3s 0s, visibility 0s 0s, transform 0.3s 0s, top 0.3s 0s, bottom 0.3s 0s, left 0.3s 0s, right 0.3s 0s;
+}
+
+/* line 161, /Users/mike.distras/Desktop/hotel-collection/scss/style.scss */
+.cd-single-point.visited > a {
+  background-color: #037773;
+}
+
+/* line 165, /Users/mike.distras/Desktop/hotel-collection/scss/style.scss */
+.cd-single-point.visited::after {
+  /* pulse effect no more active on visited elements */
+  display: none;
+}
+
+@media only screen and (min-width: 600px) {
+  /* line 175, /Users/mike.distras/Desktop/hotel-collection/scss/style.scss */
+  .cd-single-point.is-open .cd-more-info.cd-left {
+    right: 140%;
+  }
+  /* line 179, /Users/mike.distras/Desktop/hotel-collection/scss/style.scss */
+  .cd-single-point.is-open .cd-more-info.cd-right {
+    left: 140%;
+  }
+  /* line 183, /Users/mike.distras/Desktop/hotel-collection/scss/style.scss */
+  .cd-single-point.is-open .cd-more-info.cd-top {
+    bottom: 140%;
+  }
+  /* line 187, /Users/mike.distras/Desktop/hotel-collection/scss/style.scss */
+  .cd-single-point.is-open .cd-more-info.cd-bottom {
+    top: 140%;
+  }
+}
+
+@-webkit-keyframes cd-pulse {
+  0% {
+    -webkit-transform: scale(1);
+    box-shadow: inset 0 0 1px 1px rgba(36, 187, 177, 0.8);
+  }
+  50% {
+    box-shadow: inset 0 0 1px 1px rgba(36, 187, 177, 0.8);
+  }
+  100% {
+    -webkit-transform: scale(1.6);
+    box-shadow: inset 0 0 1px 1px rgba(36, 187, 177, 0);
+  }
+}
+
+@-moz-keyframes cd-pulse {
+  0% {
+    -moz-transform: scale(1);
+    box-shadow: inset 0 0 1px 1px rgba(36, 187, 177, 0.8);
+  }
+  50% {
+    box-shadow: inset 0 0 1px 1px rgba(36, 187, 177, 0.8);
+  }
+  100% {
+    -moz-transform: scale(1.6);
+    box-shadow: inset 0 0 1px 1px rgba(36, 187, 177, 0);
+  }
+}
+
+@keyframes cd-pulse {
+  0% {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    box-shadow: inset 0 0 1px 1px rgba(36, 187, 177, 0.8);
+  }
+  50% {
+    box-shadow: inset 0 0 1px 1px rgba(36, 187, 177, 0.8);
+  }
+  100% {
+    -webkit-transform: scale(1.6);
+    -moz-transform: scale(1.6);
+    -ms-transform: scale(1.6);
+    -o-transform: scale(1.6);
+    transform: scale(1.6);
+    box-shadow: inset 0 0 1px 1px rgba(36, 187, 177, 0);
+  }
+}
+
+/* line 210, /Users/mike.distras/Desktop/hotel-collection/scss/style.scss */
+.cd-single-point .cd-more-info {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  text-align: left;
+  line-height: 1.5;
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 2em 1em 1em;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  transform: scale(0.8);
+  -moz-transition: opacity 0.3s 0s, visibility 0s 0.3s, transform 0.3s 0s, top 0.3s 0s, bottom 0.3s 0s, left 0.3s 0s, right 0.3s 0s;
+  -o-transition: opacity 0.3s 0s, visibility 0s 0.3s, transform 0.3s 0s, top 0.3s 0s, bottom 0.3s 0s, left 0.3s 0s, right 0.3s 0s;
+  -webkit-transition: opacity 0.3s 0s, visibility 0s 0.3s, transform 0.3s 0s, top 0.3s 0s, bottom 0.3s 0s, left 0.3s 0s, right 0.3s 0s;
+  transition: opacity 0.3s 0s, visibility 0s 0.3s, transform 0.3s 0s, top 0.3s 0s, bottom 0.3s 0s, left 0.3s 0s, right 0.3s 0s;
+}
+
+/* line 231, /Users/mike.distras/Desktop/hotel-collection/scss/style.scss */
+.cd-single-point .cd-more-info::before {
+  /* triangle next to the interest point description - hidden on mobile */
+  content: '';
+  position: absolute;
+  height: 0;
+  width: 0;
+  display: none;
+  border: 8px solid transparent;
+}
+
+/* line 241, /Users/mike.distras/Desktop/hotel-collection/scss/style.scss */
+.cd-single-point .cd-more-info h2 {
+  font-size: 22px;
+  font-size: 1.375rem;
+  margin-bottom: .6em;
+}
+
+/* line 246, /Users/mike.distras/Desktop/hotel-collection/scss/style.scss */
+.cd-single-point .cd-more-info p {
+  color: #000000;
+}
+
+@media only screen and (min-width: 600px) {
+  /* line 210, /Users/mike.distras/Desktop/hotel-collection/scss/style.scss */
+  .cd-single-point .cd-more-info {
+    position: absolute;
+    width: 270px;
+    height: auto;
+    padding: 1em 1em 4em 1em;
+    overflow-y: visible;
+    line-height: 1.4;
+    border-radius: 0.25em;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }
+  /* line 260, /Users/mike.distras/Desktop/hotel-collection/scss/style.scss */
+  .cd-single-point .cd-more-info::before {
+    display: block;
+  }
+  /* line 264, /Users/mike.distras/Desktop/hotel-collection/scss/style.scss */
+  .cd-single-point .cd-more-info.cd-left, .cd-single-point .cd-more-info.cd-right {
+    top: 50%;
+    bottom: auto;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  /* line 267, /Users/mike.distras/Desktop/hotel-collection/scss/style.scss */
+  .cd-single-point .cd-more-info.cd-left::before, .cd-single-point .cd-more-info.cd-right::before {
+    top: 50%;
+    bottom: auto;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  /* line 272, /Users/mike.distras/Desktop/hotel-collection/scss/style.scss */
+  .cd-single-point .cd-more-info.cd-left {
+    right: 160%;
+    left: auto;
+  }
+  /* line 276, /Users/mike.distras/Desktop/hotel-collection/scss/style.scss */
+  .cd-single-point .cd-more-info.cd-left::before {
+    border-left-color: rgba(255, 255, 255, 0.95);
+    left: 100%;
+  }
+  /* line 282, /Users/mike.distras/Desktop/hotel-collection/scss/style.scss */
+  .cd-single-point .cd-more-info.cd-right {
+    left: 160%;
+  }
+  /* line 285, /Users/mike.distras/Desktop/hotel-collection/scss/style.scss */
+  .cd-single-point .cd-more-info.cd-right::before {
+    border-right-color: rgba(255, 255, 255, 0.95);
+    right: 100%;
+  }
+  /* line 291, /Users/mike.distras/Desktop/hotel-collection/scss/style.scss */
+  .cd-single-point .cd-more-info.cd-top, .cd-single-point .cd-more-info.cd-bottom {
+    left: 50%;
+    right: auto;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+  /* line 294, /Users/mike.distras/Desktop/hotel-collection/scss/style.scss */
+  .cd-single-point .cd-more-info.cd-top::before, .cd-single-point .cd-more-info.cd-bottom::before {
+    left: 50%;
+    right: auto;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+  }
+  /* line 299, /Users/mike.distras/Desktop/hotel-collection/scss/style.scss */
+  .cd-single-point .cd-more-info.cd-top {
+    bottom: 160%;
+    top: auto;
+  }
+  /* line 303, /Users/mike.distras/Desktop/hotel-collection/scss/style.scss */
+  .cd-single-point .cd-more-info.cd-top::before {
+    border-top-color: rgba(255, 255, 255, 0.95);
+    top: 100%;
+  }
+  /* line 309, /Users/mike.distras/Desktop/hotel-collection/scss/style.scss */
+  .cd-single-point .cd-more-info.cd-bottom {
+    top: 160%;
+  }
+  /* line 312, /Users/mike.distras/Desktop/hotel-collection/scss/style.scss */
+  .cd-single-point .cd-more-info.cd-bottom::before {
+    border-bottom-color: rgba(255, 255, 255, 0.95);
+    bottom: 100%;
+  }
+  /* line 318, /Users/mike.distras/Desktop/hotel-collection/scss/style.scss */
+  .cd-single-point .cd-more-info h2 {
+    font-size: 20px;
+    font-size: 1.25rem;
+    margin-bottom: 0;
+    color: #000000;
+  }
+  /* line 324, /Users/mike.distras/Desktop/hotel-collection/scss/style.scss */
+  .cd-single-point .cd-more-info p {
+    font-size: 14px;
+    font-size: 0.875rem;
+  }
+}
+
+/* close the interest point description - only on mobile */
+/* line 332, /Users/mike.distras/Desktop/hotel-collection/scss/style.scss */
+.cd-close-info {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 44px;
+  width: 44px;
+}
+
+/* line 339, /Users/mike.distras/Desktop/hotel-collection/scss/style.scss */
+.cd-close-info::after, .cd-close-info:before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  bottom: auto;
+  right: auto;
+  -webkit-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+  -moz-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+  -ms-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+  -o-transform: translateX(-50%) translateY(-50%) rotate(45deg);
+  transform: translateX(-50%) translateY(-50%) rotate(45deg);
+  background-color: #037773;
+  -webkit-transition-property: -webkit-transform;
+  -moz-transition-property: -moz-transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+
+/* line 352, /Users/mike.distras/Desktop/hotel-collection/scss/style.scss */
+.cd-close-info::after {
+  height: 2px;
+  width: 16px;
+}
+
+/* line 357, /Users/mike.distras/Desktop/hotel-collection/scss/style.scss */
+.cd-close-info::before {
+  height: 16px;
+  width: 2px;
+}
+
+@media only screen and (min-width: 600px) {
+  /* line 332, /Users/mike.distras/Desktop/hotel-collection/scss/style.scss */
+  .cd-close-info {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=../css/style.map */
