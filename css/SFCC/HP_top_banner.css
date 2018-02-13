@@ -1,0 +1,226 @@
+<style>
+   * {
+   box-sizing: border-box;
+   }
+   .row::after {
+   content: "";
+   clear: both;
+   display: table;
+   }
+   [class*="col-"] {
+   float: left;
+   padding: 15px;
+   }
+   img {
+   max-width: 100%;
+   height: auto;
+   }
+   /* For mobile phones: */
+   [class*="col-"] {
+   width: 100%;
+   }
+   .hero-1 {
+   width: 100%;
+   height: 400px;
+   background-image: url(https://staging-web-soak.demandware.net/on/demandware.static/-/Library-Sites-soak-content-global/default/va06734ac89b544a796ab2736f13c4da14a671413/images/Banners/hotel_collection/Feb/HOTEL_INSPIRED_1140X650.jpg?version=1,518,540,610,000);
+   background-size: cover;
+   background-position: 22% 50%;
+   }
+   .title {
+   font-family: HouschkaRoundedAlt-light, Helvetica, Arial, sans-serif;
+   font-weight: 200;
+   font-size: 28px;
+   width: 100%;
+   max-width: 100px;
+   line-height: 60px;
+   color: #fff;
+   text-align: center;
+   }
+   .button {
+   background-color: #00bfb2;
+   /* Green */
+   border: none;
+   color: white;
+   padding: 10px 20px 10px 20px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   border-radius: 6px;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 200;
+   }
+   .button:hover {
+   background-color: #54575b;
+   color: white;
+   }
+   .button a {
+   text-decoration: none;
+   color: white;
+   }
+   /* Container holding the image and the text */
+   .container {
+   position: relative;
+   }
+   /* Bottom left text */
+   .bottom-left {
+   position: absolute;
+   bottom: 8px;
+   left: 16px;
+   }
+   /* Top left text */
+   .top-left {
+   position: absolute;
+   bottom: 0%;
+   right: 0%;
+   left: 5%;
+   top: 6%;
+   width: 200px;
+   /* padding: 0px 5px 0px 5px; */
+   width: 100%;
+   }
+   /* Bottom right text */
+   .cta {
+   position: absolute;
+   bottom: 0%;
+   right: 0%;
+   /* left: 20%; */
+   top: 80%;
+   width: 100%;
+   padding: 0px 5px 0px 5px;
+   max-width: 275px;
+   }
+   .chevron {
+   position: absolute;
+   top: 5%;
+   left: 82%;
+   font-size: 28px;
+   font-weight: 200;
+   }
+   @media only screen and (min-width: 768px) {
+   /* For tablets: */
+   .col-m-12 {
+   width: 100%;
+   }
+   .hero-1 {
+   width: 100%;
+   height: 455px;
+   background-image: url(https://staging-web-soak.demandware.net/on/demandware.static/-/Library-Sites-soak-content-global/default/va06734ac89b544a796ab2736f13c4da14a671413/images/Banners/hotel_collection/Feb/HOTEL_INSPIRED_1140X650.jpg?version=1,518,540,610,000);
+   background-size: cover;
+   background-position: 50% 70%;
+   }
+   .title {
+   font-family: HouschkaRoundedAlt-light, Helvetica, Arial, sans-serif;
+   font-weight: 200;
+   font-size: 59px;
+   width: 100%;
+   line-height: 60px;
+   color: #fff;
+   }
+   .button {
+   background-color: #00bfb2;
+   /* Green */
+   border: none;
+   color: white;
+   padding: 10px 20px 10px 20px;
+   text-align: left;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   border-radius: 6px;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 200;
+   }
+   .button:hover {
+   background-color: #54575b;
+   color: white;
+   }
+   .button a {
+   text-decoration: none;
+   color: white;
+   }
+   .chevron {
+   position: absolute;
+   top: 13%;
+   left: 82%;
+   font-size: 28px;
+   font-weight: 200;
+   }
+   /* Container holding the image and the text */
+   .container {
+   position: relative;
+   }
+   /* Bottom right text */
+   .cta {
+   position: absolute;
+   bottom: 70px;
+   right: 40px;
+   align:
+   }
+   }
+   @media only screen and (min-width: 1024px) {
+   /* For desktop: */
+   .col-12 {
+   width: 100%;
+   }
+   .hero-1 {
+   width: 100%;
+   height: 650px;
+   background-image: url(https://staging-web-soak.demandware.net/on/demandware.static/-/Library-Sites-soak-content-global/default/va06734ac89b544a796ab2736f13c4da14a671413/images/Banners/hotel_collection/Feb/HOTEL_INSPIRED_1140X650.jpg?version=1,518,540,610,000);
+   background-size: cover;
+   background-position: 50% 70%;
+   }
+   .title {
+   font-family: HouschkaRoundedAlt-light, Helvetica, Arial, sans-serif;
+   font-weight: 200;
+   font-size: 70px;
+   width: 100%;
+   max-width: 100px;
+   line-height: 60px;
+   color: #fff;
+   }
+   .button {
+   background-color: #00bfb2;
+   /* Green */
+   border: none;
+   color: white;
+   text-align: left;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 20px;
+   width: 333px;
+   }
+   .button:hover {
+   background-color: #54575b;
+   color: white;
+   }
+   .button a {
+   text-decoration: none;
+   color: white;
+   }
+   .chevron {
+   position: absolute;
+   top: 10%;
+   left: 110%;
+   font-size: 28px;
+   font-weight: 200;
+   }
+   /* Container holding the image and the text */
+   .container {
+   position: relative;
+   }
+   /* Top left text */
+   .top-left {
+   position: absolute;
+   top: 80px;
+   left: 64px;
+   width: 350px;
+   }
+   /* Bottom right text */
+   .cta {
+   position: absolute;
+   bottom: 70px;
+   right: 105px;
+   }
+   }
+</style>
